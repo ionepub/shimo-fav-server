@@ -1,16 +1,14 @@
 <?php
 error_reporting(0);
 
-/*$referer = $_SERVER['HTTP_ORIGIN'];
+$referer = $_SERVER['HTTP_ORIGIN'];
 
 if(preg_match("/chrome-extension:\/\/[a-z]{32}$/", $referer)){
-	if($referer == 'chrome-extension://pomeehplgpmjmokdggcjepcglmcnkdoc'){
-		header('Access-Control-Allow-Origin:' . $referer);
-	}
-}*/
+	header('Access-Control-Allow-Origin:' . $referer);
+}
 
-$referer = 'chrome-extension://pomeehplgpmjmokdggcjepcglmcnkdoc';
-header('Access-Control-Allow-Origin:' . $referer);
+// $referer = 'chrome-extension://pomeehplgpmjmokdggcjepcglmcnkdoc';
+// header('Access-Control-Allow-Origin:' . $referer);
 
 // 是否sae环境
 if(function_exists('saeAutoLoader')){// 自动识别SAE环境
