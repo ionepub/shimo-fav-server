@@ -293,6 +293,7 @@ class App
 		}
 	}
 
+	/*// 供测试，循环获取所有key-values
 	public function test(){
 		// 循环获取所有key-values
 		$ret = $this->db->pkrget('', 100);
@@ -306,7 +307,7 @@ class App
 			if ($i < 100) break;
 			$ret = $this->db->pkrget('', 100, $start_key);
 		}
-	}
+	}*/
 
 	/**
 	 * 过滤参数
