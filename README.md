@@ -26,7 +26,7 @@ var baseUrl = "http://shimofav.applinzi.com/";
 
 ### SAE
 
-新浪SAE地址：http://sae.sina.com.cn/，用这个邀请链接注册有免费云豆奖励：http://t.cn/R4jXOIj
+新浪SAE地址：`http://sae.sina.com.cn/` ，用这个邀请链接注册有免费云豆奖励： `http://t.cn/R4jXOIj`
 
 **在SAE上使用的不是数据库，而是KVDB，可以直接上传代码。**
 
